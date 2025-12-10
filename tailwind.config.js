@@ -2,7 +2,7 @@
 export default {
     content: [
         "./index.html",
-        "./src/**/*.{html,js,ts}",   // <— добавили html + вложенные пути
+        "./src/**/*.{html,js,ts,css}",   // <<< обязательно!
     ],
     theme: {
         extend: {
@@ -40,10 +40,3 @@ export default {
             backgroundImage: {
                 "hero-gradient":
                     "linear-gradient(180deg, #C29E80 7%, #000000 100%)",
-                "hero-gradient-270":
-                    "linear-gradient(270deg, #C29E80 7%, #000000 100%)",
-            },
-        },
-    },
-    plugins: [],
-};
