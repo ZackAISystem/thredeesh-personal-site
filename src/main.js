@@ -1,5 +1,4 @@
-import "/tailwind.css";
-import "/style.css";
+import "./style.css";
 
 
 const track = document.getElementById('galTrack');
